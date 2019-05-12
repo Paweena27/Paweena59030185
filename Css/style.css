@@ -1,7 +1,7 @@
 body{
     width: 650px;
     margin: 0 auto;
-    background:#FFDDDD;
+    background-image: url()
     color: blue;
     font: 20px sans-serif;
 }
@@ -9,10 +9,7 @@ header{
     padding: 10px 0px;
     font-size: 1.5em;
 }
-h2{
-    font-size: 20px;
-    margin-top: 0;
-}
+
 a{
     color: #FAA202;
     font-weight: bold;
@@ -26,20 +23,6 @@ li{
 }
 main{
     margin-top: 50x;
-}
-table{
-    font-size: 1rem;
-    margin-bottom: 10px;
-    border-spacing: 0;
-}
-caption {
-    margin-bottom: 10px;
-    font-size: 0.9 em;
-    font-weight: bold;
-    text-align: left;
-}
-th, td{
-    text-align: left;
 }
 section{
     margin: 20px 0px;
