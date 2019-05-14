@@ -1,4 +1,3 @@
-//part1
 (function () {
     `use strict`;
     var canvas = document.querySelector(`#myClock`),
@@ -32,8 +31,6 @@
         minutes = date.getMinutes();
         seconds = date.getSeconds();
     }
-    
-    //part2
     // animate the clock
     function animateClock() {
         clearCanvas();
@@ -58,10 +55,8 @@
         drawClockBackground();
         drawMinutesHand();
         drawHoursHand();
-        drawSecondHand();
+        drawSecond();
     }
-
-    //part3
     function drawHand(beginX, beginY, endX, endY) {
         canvasContext.beginPath();
         canvasContext.moveTo(beginX, beginY);
@@ -75,9 +70,9 @@
         var num;
         canvasContext.font = radius * 0.15 + "px arial";
         canvasContext.textBaseline = "middle";
-        canvasContext.textAlign = "center";
-        canvasContext.fillStyle = 'white';
-        for(num = 1; num < 13; num++){
+        canvasContext.textAlign = 'center';
+        canvasContext.fillStyle = 'black';
+        for(num = 1; num <= 12; num++){
           ang = num * Math.PI / 6;
           canvasContext.rotate(ang);
           canvasContext.translate(0, -radius * 0.8);
@@ -89,7 +84,7 @@
         }
     }
 
-    function drawSecondHand() {
+    function drawSecond() {
         var rotationUnit = seconds
             rotationFactor = Math.PI / 30,
             rotation = rotationUnit * rotationFactor,
@@ -120,9 +115,22 @@
         drawHand(cX, cY, endX, endY);
     }
 
-    //part4
-
-    function drawDefault() {
+    function drawAnother() {
+        canvasContext.beginPath();
+        canvasContext.strokeStyle = '#dfc3fc ';
+        canvasContext.fillStyle = '#ffcbe2';
+        canvasContext.lineWidth = 15;
+        canvasContext.arc(cX, cY, radius, 0, 2 * Math.PI);
+        canvasContext.fill();
+        canvasContext.stroke();
+        canvasContext.beginPath();
+        canvasContext.arc(cX, cY, radius*0.1, 0, 2*Math.PI);
+        canvasContext.fillStyle = '#dfc3fc ';
+        canvasContext.fill();
+        canvasContext.closePath();
+        drawNumber();
+    }
+ function drawDefault() {
         var correction = 1 / 300,
             shiftUnit = 1 / 170,
             shiftFactor = 1/ 30,
@@ -140,19 +148,6 @@
         }
         drawLittleCircle(cX, cY);
     }
-
-    function drawAnother() {
-        canvasContext.beginPath();
-        canvasContext.strokeStyle = "#EEE";
-        canvasContext.fillStyle = "#333";
-        canvasContext.lineWidth = 10;
-        canvasContext.arc(cX, cY, radius, 0, 2 * Math.PI);
-        canvasContext.fill();
-        canvasContext.stroke();
-        canvasContext.closePath();
-        drawNumber();
-    }
-
     function drawClockBackground() {
         drawDefault();
         getbtnDef.addEventListener('click',btnSelectDef,false);
