@@ -1,14 +1,13 @@
-body{
-    width: auto;
-    margin: 0 auto;
-    background-image: url();
-    color: black;
-    font: 20px sans-serif;
+body,html{
+    background-image: url(./photo/500_F_216878687_sxV6nNKoFyE0BCIGMpGHqiItt3upczeK.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
 }
 header{
     padding: 100px 30px;
     font-size: 1.5em;
-    background-image: url();
     text-align: center;
 }
 
@@ -30,4 +29,8 @@ section{
     margin: 20px 0px;
     padding: 30px 20px 30px 20px;
     border: 2px solid  blue;
+}
+#miku{
+    width: 400px;
+    height: 300px;
 }
