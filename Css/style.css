@@ -1,30 +1,9 @@
+
 li {
     list-style: none;
     float: left;
     padding-left: 15px;
-}
 
-a {
-    color:  pink;
-    font-weight: bold;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: all 0.3s ease;
-    
-}
-ul li a
-{
-    background-image: url(/1.jpg);
-    border: 2px solid #161616;
-}
-header {
-    padding: 50px 0px;
-    font-size: 1.5em;
-    text-align: center;
-}
-
-.menu {
-    padding: 0px 20px;
 }
 
 #miku {
@@ -48,19 +27,10 @@ header{
     color: #FAA202;
     font-weight: bold;
     font-size: 40px;
-    padding: 50px 0px;
+    padding: 50px 20px;
+    text-align: center;
+    background-image: url(https://wordpress-network.prod.aws.skyscnr.com/wp-content/uploads/2018/05/maldives-beach-sea-resort-heroimage.jpg?w=1000&h=312&crop=1);
     
-}
-
-#tmNavbar .navbar-nav .nav-item+.nav-item { margin-left: 0; }
-.menu {
-    margin-left: 0;
-    background: white;
-    border-color: #cc9900;
-    color: #cc9900;
-    display: block;
-    margin-left: auto;
-    margin-right: 0;
 }
 
 .table{
@@ -76,11 +46,12 @@ header{
 }
 .table .box .btn a span
 {
-    background-color: aqua;
-    border: 3px solid#161616;
-    padding: 10px;
-    text-decoration: none;
-    list-style: none;
+    color: white;
+	background-color: #cc9900;
+	border: none;
+	border-radius: 8px;
+	display: inline-block;
+	padding: 10px 30px;
 }
 @media only screen and (width : 800px)
 {
@@ -95,4 +66,15 @@ header{
         
         grid-template-columns: 1fr;
     }
+}
+
+.nav-item.active .nav-link,
+.nav-link:hover,
+.nav-link:focus {
+    background-color: #cc9900;
+}
+.navbar-nav .nav-link {
+	border-radius: 6px;
+	color: black ;
+    padding: 10px 20px;
 }
