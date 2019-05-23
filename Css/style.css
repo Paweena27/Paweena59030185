@@ -38,19 +38,18 @@ footer {
     text-align: center;
 }
 body{
-    background-color: #5EE1F1;
+    background-color : #88DDBB ;
     font-family: "Roboto", Arial, serif;
     line-height: 1.8;
     font-size: 20px;
     font-weight: 300;
-
 }
 header{
     color: #FAA202;
     font-weight: bold;
     font-size: 40px;
     padding: 50px 0px;
-    background-image: url(https://www.bloggang.com/data/i/inkispy/picture/1272351686.jpg);
+    
 }
 
 #tmNavbar .navbar-nav .nav-item+.nav-item { margin-left: 0; }
@@ -68,6 +67,7 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
+    margin: 0px 0px 0px 50px;
 }
 .table .box img
 {
