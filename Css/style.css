@@ -3,7 +3,7 @@ li {
     list-style: none;
     float: left;
     padding-left: 15px;
-
+z
 }
 
 #miku {
@@ -17,7 +17,7 @@ footer {
     text-align: center;
 }
 body{
-    background-color : #88DDBB ;
+    background-color :white ;
     font-family: "Roboto", Arial, serif;
     line-height: 1.8;
     font-size: 20px;
@@ -27,9 +27,9 @@ header{
     color: #FAA202;
     font-weight: bold;
     font-size: 40px;
-    padding: 50px 20px;
+    padding: 50px 50px 50px;
     text-align: center;
-    background-image: url(https://wordpress-network.prod.aws.skyscnr.com/wp-content/uploads/2018/05/maldives-beach-sea-resort-heroimage.jpg?w=1000&h=312&crop=1);
+    background-image: url(http://เที่ยวกัน.com/wp-content/uploads/2016/08/ep10-01-1024x585.jpg);
     
 }
 
@@ -37,12 +37,12 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
-    margin: 0px 0px 0px 50px;
+    margin: 20px 0px 0px 50px;
 }
 .table .box img
 {
-    width: 350px;
-    height: 400px;
+    width: 400px;
+    height: 250px;
 }
 .table .box .btn a span
 {
@@ -51,7 +51,7 @@ header{
 	border: none;
 	border-radius: 8px;
 	display: inline-block;
-	padding: 10px 30px;
+	padding: 20px 30px;
 }
 @media only screen and (width : 800px)
 {
@@ -77,4 +77,9 @@ header{
 	border-radius: 6px;
 	color: black ;
     padding: 10px 20px;
+}
+#tmNavbar {
+    background:blueviolet; 
+    border-radius: 6px;
+    padding: 20px 20px 10px 20px;
 }
