@@ -1,15 +1,21 @@
 li {
     list-style: none;
     float: left;
+    padding-left: 15px;
 }
 
 a {
-    color: #FAA202;
+    color:  pink;
     font-weight: bold;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: all 0.3s ease;
+    
 }
 ul li a
 {
     background-image: url(/1.jpg);
+    border: 2px solid #161616;
 }
 header {
     padding: 50px 0px;
@@ -31,10 +37,62 @@ footer {
     font-size: 1.5em;
     text-align: center;
 }
+body{
+    background-color: #5EE1F1;
+    font-family: "Roboto", Arial, serif;
+    line-height: 1.8;
+    font-size: 20px;
+    font-weight: 300;
+
+}
 header{
     color: #FAA202;
     font-weight: bold;
     font-size: 40px;
     padding: 50px 0px;
     background-image: url(https://www.bloggang.com/data/i/inkispy/picture/1272351686.jpg);
+}
+
+#tmNavbar .navbar-nav .nav-item+.nav-item { margin-left: 0; }
+.menu {
+    margin-left: 0;
+    background: white;
+    border-color: #cc9900;
+    color: #cc9900;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.table .box img
+{
+    width: 350px;
+    height: 400px;
+}
+.table .box .btn a span
+{
+    background-color: aqua;
+    border: 3px solid#161616;
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+@media only screen and (width : 800px)
+{
+    .table{
+        
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (width : 500px)
+{
+    .table{
+        
+        grid-template-columns: 1fr;
+    }
 }
