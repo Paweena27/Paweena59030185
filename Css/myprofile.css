@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
 body{
     background-color :white ;
     font-family: "Roboto", Arial, serif;
@@ -39,9 +38,7 @@ header{
     background-image: url(http://เที่ยวกัน.com/wp-content/uploads/2016/08/ep10-01-1024x585.jpg);
     
 }
-header h1
-{
-    border: 2px solid white;
+
 }
 .table{
     display: grid;
@@ -102,7 +99,9 @@ header h1
     margin: 0px 0px 20px 0px;
     
 }
-
-.box {
-    margin: 10px;
+.text{
+    font-family: 'Mali', cursive;
+    font-family: 'Sriracha', cursive;
+    font-family: 'Sarabun', sans-serif;
 }
+
