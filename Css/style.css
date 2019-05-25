@@ -11,7 +11,6 @@ li {
     padding-right:5px;
 }
 footer {
-    background-image:url(https://media0.giphy.com/media/icHYcFh2VbAMo/giphy.gif) ;
     padding: 10px 0px;
     font-size: 1.5em;
     text-align: center;
@@ -27,8 +26,7 @@ header{
     background-image: url(http://เที่ยวกัน.com/wp-content/uploads/2016/08/ep10-01-1024x585.jpg);
     
 }
-header h1
-{
+header h1{
     border: 2px solid white;
 }
 .table{
@@ -53,21 +51,21 @@ header h1
 	padding: 20px 30px;
 }
 /*เป็นการกำหนด responsive design*/
-@media screen and (min-width : 500px)
+@media screen and (min-width : 0px)
 {
     .table{
         
         grid-template-columns: 1fr 1fr 1fr ;
     }
 }
-@media screen and (max-width : 1000px)
+@media screen and (max-width : 1200px)
 {
     .table{
         
         grid-template-columns: 1fr 1fr;
     }
 }
-@media screen and (max-width : 500px)
+@media screen and (max-width : 800px)
 {
     .table{
         
@@ -89,9 +87,6 @@ header h1
     background-color:#6699AA; 
     padding: 20px 0px 10px 0px;
     margin: 0px 0px 20px 0px;
-}
-.box {
-    margin: 10px;
 }
 .text{
     font-family: 'Mali', cursive;
