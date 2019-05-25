@@ -1,7 +1,7 @@
 Welcome to my web
 1.Home
-เป็นหน้าหลักแสดงผลสถาที่ท่องเที่ยวโดยแนะนำทะเลในประเทศไทย
+Introducing the sea in Thailand
 2.Game
-เป็นเกมส์งูหรรษา
+snank game
 3.Myprofile 
-ประวัติส่วนตัว
+
