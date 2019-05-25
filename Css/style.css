@@ -12,7 +12,7 @@ li {
 }
 footer {
     background-image:url(https://media0.giphy.com/media/icHYcFh2VbAMo/giphy.gif) ;
-    padding: 20px 0px;
+    padding: 10px 0px;
     font-size: 1.5em;
     text-align: center;
     color: white; 
@@ -53,7 +53,7 @@ header h1
 	padding: 20px 30px;
 }
 /*เป็นการกำหนด responsive design*/
-@media screen and (min-width : 00px)
+@media screen and (min-width : 500px)
 {
     .table{
         
@@ -85,7 +85,7 @@ header h1
     padding: 10px 20px;
 }
 #tmNavbar {
-    background-image:url(https://media0.giphy.com/media/icHYcFh2VbAMo/giphy.gif) ;
+    background-image:url(https://media0.giphy.com/media/icHYcFh2VbAMo/giphy.gif);
     background-color:#6699AA; 
     padding: 20px 0px 10px 0px;
     margin: 0px 0px 20px 0px;

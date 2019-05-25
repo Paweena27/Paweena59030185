@@ -13,7 +13,6 @@ body{
     line-height: 1.8;
     font-size: 20px;
     font-weight: 300;
-    background-image: url(https://cdn.pixabay.com/photo/2017/01/24/03/53/plant-2004483__340.jpg);
 }
 li {
     list-style: none;
@@ -23,21 +22,12 @@ li {
 }
 footer {
     background-image:url(https://media0.giphy.com/media/icHYcFh2VbAMo/giphy.gif) ;
-    padding: 20px 0px;
+    padding: 10px 0px;
     font-size: 1.5em;
     text-align: center;
     color: white; 
     background-color:#6699AA; 
-}
 
-header{
-    color:white;
-    font-weight: bold;
-    font-size: 40px;
-    padding: 50px 50px 50px;
-    text-align: center;
-    background-image: url(http://เที่ยวกัน.com/wp-content/uploads/2016/08/ep10-01-1024x585.jpg);
-    
 }
 .table{
     display: grid;

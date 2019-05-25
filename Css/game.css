@@ -1,11 +1,3 @@
-.container {
-    display: grid;   
-}
-.container img{
-    height: 100%;
-    width: 80%;
-    padding: 0px 0px 0px 50px;
-}
 body{
     background-color :white ;
     font-family: "Roboto", Arial, serif;
@@ -21,26 +13,14 @@ li {
 }
 footer {
     background-image:url(https://media0.giphy.com/media/icHYcFh2VbAMo/giphy.gif) ;
-    padding: 20px 0px;
+    padding: 10px 0px;
     font-size: 1.5em;
     text-align: center;
     color: white; 
     background-color:#6699AA; 
 }
-
-header{
-    color:white;
-    font-weight: bold;
-    font-size: 40px;
-    padding: 50px 50px 50px;
-    text-align: center;
-    background-image: url(http://เที่ยวกัน.com/wp-content/uploads/2016/08/ep10-01-1024x585.jpg);
-    
-}
-
-
+/*เป็นการกำหนดสีพื้นหลัง */
 .nav-item.active .nav-link,
-.nav-link:hover,
 .nav-link:focus {
     background-color:#88BBDD;
 }
@@ -55,15 +35,12 @@ header{
     padding: 20px 0px 10px 0px;
     margin: 0px 0px 20px 0px;
     
-}
-.img{
-    padding: 0px 0px 5px 0px;
-    
-      
-}
+}     
 .text{
     font-family: 'Mali', cursive;
     font-family: 'Sriracha', cursive;
     font-family: 'Sarabun', sans-serif;
-    padding: 0px 0px 0px 15px;
-    border: 3px solid white;
+    padding: 0px 0px 0px 5px;
+    border: 2px solid black;
+    font-size: 20px;
+}
