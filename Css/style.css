@@ -36,11 +36,13 @@ header h1
     grid-gap: 10px;
     margin: 20px 0px 0px 0px;
 }
+/*เป็นการกำหนดขนาดรูป*/
 .table .box img
 {
     width: 400px;
     height: 250px;
 }
+/*เป็นการกำหนดปุ่ม*/
 .table .box .btn a span
 {
     color: white;
@@ -50,6 +52,7 @@ header h1
 	display: inline-block;
 	padding: 20px 30px;
 }
+/*เป็นการกำหนด responsive design*/
 @media screen and (min-width : 00px)
 {
     .table{
@@ -71,6 +74,7 @@ header h1
         grid-template-columns: 1fr;
     }
 }
+/*เป็นการกำหนดสีพื้นหลัง */
 .nav-item.active .nav-link,
 .nav-link:focus {
     background-color:#88BBDD;

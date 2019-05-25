@@ -56,14 +56,14 @@ header{
     margin: 0px 0px 20px 0px;
     
 }
-.text{
-    font-family: 'Mali', cursive;
-    font-family: 'Sriracha', cursive;
-    font-family: 'Sarabun', sans-serif;
-    padding: 0px 0px 0px 15px;
-}
 .img{
     padding: 0px 0px 5px 0px;
     
       
 }
+.text{
+    font-family: 'Mali', cursive;
+    font-family: 'Sriracha', cursive;
+    font-family: 'Sarabun', sans-serif;
+    padding: 0px 0px 0px 15px;
+    border: 3px solid white;

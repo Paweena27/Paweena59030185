@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Snake Game</title>
         <link rel="stylesheet" href="Css/game.css">
+        <link href="https://fonts.googleapis.com/css?family=Mali|Sarabun|Sriracha&display=swap" rel="stylesheet"> 
         <style>
                 canvas{
                     display: block;
@@ -13,8 +14,8 @@
             </style>
     </head>
     <body>
-        <nav class="navbar tm-main-nav">
-            <div class="collapse navbar-toggleable-sm" id="tmNavbar">
+        <nav >
+            <div id="tmNavbar">
                 <ul class="nav navbar-nav">
                     <img src="img/lago.png" alt="" >
                     <li class="nav-item ">
@@ -28,6 +29,10 @@
                         </li>
                 </ul>                        
             </div>
+            <div class="text">
+                    <h1>เกมส์งูหรรษา </h1>
+                    <p>คำชี้แจง <br>ให้ผู้เล่นเล่นเกมส์งู การบังคับตัวงูโดยใช้ลูกศรเดินหน้า-หลัง หรือลูกศรซ้าย-ขวา เพื่อให้งูกินอาหาร เพื่อกินอาหารแล้วคะแนนจะขึ้น หากงูชนขอบต้องเริ่มเกมส์ใหม่</p>
+            </div>        
         </nav>
         <canvas id="snake" width="600" height="600"></canvas>
         <script src="script/snake.js"></script>
