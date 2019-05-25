@@ -3,8 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Welcome to my web</title>
-        <link rel="stylesheet" href="Css/myprofile.css">
+        <title>Snake Game</title>
+        <link rel="stylesheet" href="Css/game.css">
+        <style>
+                canvas{
+                    display: block;
+                    margin: 0 auto;
+                }
+            </style>
     </head>
     <body>
         <nav class="navbar tm-main-nav">
@@ -22,25 +28,8 @@
                 </ul>                        
             </div>
         </nav>
-        <div class="container">
-            <div class="img">
-                <img src="img/1.jpg" alt="" width="750" height="500">
-            </div>
-            <div class="text">
-                <h1> จัดทำโดย </h1>
-                <p>ชื่อ นางสาวปวีณา วิเชียรรัตน์  ชื่อเล่น กาต่วย  อายุ 20 ปี <br>ปัจจุบันศ&กษา KMITL ลาดกระบัง</p>
-            </div>
-        </div>
-        <div class="container">
-                
-                <div class="text">
-                    <h1> จัดทำโดย </h1>
-                    <p></p>
-                </div>
-                <div class="img">
-                    <img src="img/2.jpg" alt="" width="750" height="500">
-                </div>
-            </div>
+        <canvas id="snake" width="600" height="600"></canvas>
+        <script src="script/snake.js"></script>
         <footer>
                 Project by 59030185 Paweena
             </footer>

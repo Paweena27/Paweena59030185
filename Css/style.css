@@ -19,6 +19,7 @@ li {
 }
 
 footer {
+    background-image:url(https://media0.giphy.com/media/icHYcFh2VbAMo/giphy.gif) ;
     padding: 20px 0px;
     font-size: 1.5em;
     text-align: center;
@@ -63,7 +64,7 @@ header h1
 {
     .table{
         
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr ;
     }
 }
 @media screen and (max-width : 1000px)
@@ -92,7 +93,7 @@ header h1
     padding: 10px 20px;
 }
 #tmNavbar {
-    background-image:url(//https://media0.giphy.com/media/icHYcFh2VbAMo/giphy.gif) ;
+    background-image:url(https://media0.giphy.com/media/icHYcFh2VbAMo/giphy.gif) ;
     background-color:#6699AA; 
     padding: 20px 0px 50px 0px;
     margin: 0px 0px 20px 0px;
