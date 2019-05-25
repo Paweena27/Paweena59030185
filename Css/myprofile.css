@@ -6,6 +6,10 @@
     width: 80%;
     padding: 0px 0px 0px 50px;
 }
+.h1
+{
+    border: 2px solid white;
+}
 body{
     background-color :white ;
     font-family: "Roboto", Arial, serif;
