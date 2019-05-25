@@ -11,7 +11,7 @@ const ground = new Image();
 ground.src = "img/ground.png" ;
 
 const foodImg = new Image();
-foodImg.src = "img/food.png";
+foodImg.src = "img/111.png";
 
 
 // create the snake
