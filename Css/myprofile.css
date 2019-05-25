@@ -1,6 +1,10 @@
 .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: grid;   
+}
+.container img{
+    height: 100%;
+    width: 80%;
+    padding: 0px 0px 0px 50px;
 }
 body{
     background-color :white ;
@@ -15,12 +19,6 @@ li {
     padding-right:5px;
 
 }
-
-#miku {
-    width: 400px;
-    height: 300px;
-}
-
 footer {
     padding: 20px 0px;
     font-size: 1.5em;
@@ -39,7 +37,6 @@ header{
     
 }
 
-}
 .table{
     display: grid;
     grid-gap: 10px;
@@ -58,28 +55,6 @@ header{
 	border-radius: 8px;
 	display: inline-block;
 	padding: 20px 30px;
-}
-
-@media screen and (min-width : 00px)
-{
-    .table{
-        
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-@media screen and (max-width : 1000px)
-{
-    .table{
-        
-        grid-template-columns: 1fr 1fr;
-    }
-}
-@media screen and (max-width : 500px)
-{
-    .table{
-        
-        grid-template-columns: 1fr;
-    }
 }
 
 .nav-item.active .nav-link,
@@ -103,5 +78,28 @@ header{
     font-family: 'Mali', cursive;
     font-family: 'Sriracha', cursive;
     font-family: 'Sarabun', sans-serif;
+    padding: 0px 0px 0px 15px;
+}
+.img{
+    padding: 0px 0px 5px 0px;
+    
+      
 }
 
+#content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+@media screen and (max-width : 800px)
+{
+    .container {
+        grid-template-rows: 1fr 1fr;
+    }
+}
+@media screen and (min-width : 800px)
+{
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
