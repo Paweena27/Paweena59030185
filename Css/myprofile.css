@@ -6,16 +6,14 @@
     width: 80%;
     padding: 0px 0px 0px 50px;
 }
-.h1
-{
-    border: 2px solid white;
-}
+
 body{
     background-color :white ;
     font-family: "Roboto", Arial, serif;
     line-height: 1.8;
     font-size: 20px;
     font-weight: 300;
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/24/03/53/plant-2004483__340.jpg);
 }
 li {
     list-style: none;
@@ -41,7 +39,6 @@ header{
     background-image: url(http://เที่ยวกัน.com/wp-content/uploads/2016/08/ep10-01-1024x585.jpg);
     
 }
-
 .table{
     display: grid;
     grid-gap: 10px;
@@ -63,7 +60,6 @@ header{
 }
 
 .nav-item.active .nav-link,
-.nav-link:hover,
 .nav-link:focus {
     background-color:#88BBDD;
 }
@@ -75,7 +71,7 @@ header{
 #tmNavbar {
     background-image:url(https://media0.giphy.com/media/icHYcFh2VbAMo/giphy.gif) ;
     background-color:#6699AA; 
-    padding: 20px 0px 50px 0px;
+    padding: 20px 0px 10px 0px;
     margin: 0px 0px 20px 0px;
     
 }
@@ -84,13 +80,11 @@ header{
     font-family: 'Sriracha', cursive;
     font-family: 'Sarabun', sans-serif;
     padding: 0px 0px 0px 15px;
+    border: 3px solid white;
 }
 .img{
     padding: 0px 0px 5px 0px;
-    
-      
 }
-
 #content {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -108,3 +102,4 @@ header{
         grid-template-columns: 1fr 1fr;
     }
 }
+

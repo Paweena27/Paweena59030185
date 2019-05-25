@@ -1,3 +1,7 @@
+/*
+Create by Learn Web Developement
+Youtube channel : https://www.youtube.com/channel/UC8n8ftV94ZU_DJLOLtrpORA
+*/
 
 const cvs = document.getElementById("snake");
 const ctx = cvs.getContext("2d");
@@ -8,11 +12,26 @@ const box = 32;
 // load images
 
 const ground = new Image();
-ground.src = "img/ground.png" ;
+ground.src = "img/ground.png";
 
 const foodImg = new Image();
-foodImg.src = "img/111.png";
+foodImg.src = "img/food.png";
 
+// load audio files
+
+let dead = new Audio();
+let eat = new Audio();
+let up = new Audio();
+let right = new Audio();
+let left = new Audio();
+let down = new Audio();
+
+dead.src = "audio/dead.mp3";
+eat.src = "audio/eat.mp3";
+up.src = "audio/up.mp3";
+right.src = "audio/right.mp3";
+left.src = "audio/left.mp3";
+down.src = "audio/down.mp3";
 
 // create the snake
 
@@ -20,7 +39,7 @@ let snake = [];
 
 snake[0] = {
     x : 9 * box,
-    y : 10* box
+    y : 10 * box
 };
 
 // create the food
@@ -77,7 +96,7 @@ function draw(){
         ctx.fillStyle = ( i == 0 )? "blue" : "white";
         ctx.fillRect(snake[i].x,snake[i].y,box,box);
         
-        ctx.strokeStyle = "black";
+        ctx.strokeStyle = "blan";
         ctx.strokeRect(snake[i].x,snake[i].y,box,box);
     }
     
@@ -130,7 +149,7 @@ function draw(){
 
 // call draw function every 100 ms
 
-let game = setInterval(draw,100);
+let game = setInterval(draw,200);
 
 
 
